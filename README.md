@@ -17,6 +17,26 @@ The application is deployed on **AWS EC2** with **Nginx, PM2, PostgreSQL, HTTPS,
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard
+
+The dashboard provides an overview of income, expenses, balance, savings rate, cash flow, and spending categories.
+
+![SpendWise Dashboard](docs/Screenshots/dashboard.png)
+
+### Transactions
+
+The transactions page allows users to view, search, filter, and manage their financial transactions.
+
+![SpendWise Transactions](docs/Screenshots/transaction.png)
+
+### Budgets
+
+The budgets page provides category-based spending limits, usage tracking, and remaining budget insights.
+
+![SpendWise Budgets](docs/Screenshots/budgets.png)
+
 ## ✨ Key Features
 
 - 🔐 User registration and secure authentication
