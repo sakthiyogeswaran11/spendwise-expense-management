@@ -1,0 +1,1 @@
+import 'dotenv/config';import fs from'node:fs';import{pool}from'./src/db.js';await pool.query(fs.readFileSync(new URL('./migrations/001_initial.sql',import.meta.url),'utf8'));console.log('Migration applied');await pool.end();
